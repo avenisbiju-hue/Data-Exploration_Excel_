@@ -8,6 +8,7 @@
 	
 	• Calculate the average price of the products.
 =AVERAGE(D2:D35
+
 2) Min and Max:				
 	• Determine the minimum price among all products.
 =MIN(D2:D35)		
@@ -15,9 +16,11 @@
 =MAX(D2:D35)
 
 												
+
 	3) IF Function:											
 		• Using an IF function, create a new column named Price Range to categorize products with a price greater than or equal to $500 as 'High Price' and others as 'Standard Price'.										
-												IF(D2>=500,"high price","standard price")
+		IF(D2>=500,"high price","standard price")
+	
 	4) SUMIF and COUNTIF:											
 		• Calculate the total price for products in the 'Electronics' category using the SUMIF function.
 TOTAL PRICE OF ELECTRONICS =SUMIF(F2:F35,"Electronics",D2:D35)
