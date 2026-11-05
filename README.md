@@ -1,5 +1,6 @@
 1) Sum, Count, Average:				
 	• What is the total price of all products in the dataset?
+
 =SUM(D2:D35)
 
 	• How many products are there in the dataset?
